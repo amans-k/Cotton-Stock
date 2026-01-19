@@ -3,6 +3,10 @@ import { FloatingElements } from "./FloatingElements";
 import { MapPin, Sparkles } from "lucide-react";
 
 export const HeroSection = () => {
+  const handleStoreVisit = () => {
+    window.open("https://maps.app.goo.gl/zdhn7WTmR5FFAg9i9", "_blank", "noopener,noreferrer");
+  };
+
   return (
     <section className="relative min-h-screen gradient-hero overflow-hidden flex items-center">
       <FloatingElements />
@@ -64,6 +68,7 @@ export const HeroSection = () => {
               transition={{ delay: 0.7, duration: 0.6 }}
             >
               <motion.button
+                onClick={handleStoreVisit}
                 className="group relative px-8 py-4 gradient-cta text-primary-foreground font-bold rounded-2xl shadow-float overflow-hidden"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}

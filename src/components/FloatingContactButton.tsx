@@ -6,7 +6,7 @@ export const FloatingContactButton = () => {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       {/* WhatsApp Button */}
       <motion.a
-        href="https://wa.me/9867513808"
+        href="https://wa.me/9892613808"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-accent text-accent-foreground rounded-full flex items-center justify-center shadow-float"
@@ -21,7 +21,7 @@ export const FloatingContactButton = () => {
 
       {/* Phone Button */}
       <motion.a
-        href="tel:+91986751380"
+        href="tel:+919892613808"
         className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center shadow-float"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

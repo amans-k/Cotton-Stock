@@ -137,7 +137,13 @@ export const StoreHighlight = () => {
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: 0.4 }}
             >
-              📍 Visit Our Store
+              <a 
+  href="https://maps.app.goo.gl/zdhn7WTmR5FFAg9i9" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  📍 Visit Our Store
+</a> 
             </motion.span>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-extrabold mb-6">

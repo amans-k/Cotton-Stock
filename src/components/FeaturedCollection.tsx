@@ -51,7 +51,7 @@ const products = [
   {
     id: 5,
     name: "Party Frock",
-    price: "₹499",
+    price: "₹590",
     originalPrice: "₹1,499",
     category: "Girls",
     badge: "Exclusive",

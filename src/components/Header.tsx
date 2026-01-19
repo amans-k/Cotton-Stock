@@ -84,7 +84,7 @@ export const Header = () => {
               <span className="hidden lg:inline">+91 9892613808</span>
             </motion.a>
             <motion.a
-              href="#"
+              href="https://maps.app.goo.gl/zdhn7WTmR5FFAg9i9"
               className="flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground text-sm font-bold rounded-full shadow-soft"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.98 }}
